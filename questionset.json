@@ -1,0 +1,201 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question1",
+          "title": "Who is making the Web standards?",
+          "correctAnswer": "item3",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": "Google"
+            },
+            {
+              "value": "item2",
+              "text": "Mozilla"
+            },
+            {
+              "value": "item3",
+              "text": "The World Wide Web consortium"
+            }
+          ],
+          "choicesOrder": "random",
+          "otherText": "None of the above"
+        },
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Which of the following is correct?",
+          "correctAnswer": "item1",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": "jQuery is a Java script library"
+            },
+            {
+              "value": "item2",
+              "text": "jQuery is a JSON library"
+            },
+            {
+              "value": "item3",
+              "text": "Both"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "jQuery uses CSS selectors to select elements?",
+          "correctAnswer": "item1",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": "True"
+            },
+            {
+              "value": "item2",
+              "text": "False"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Look at the following selector: $(\"div\"). What does it select?",
+          "correctAnswer": "item2",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": "The first Div element"
+            },
+            {
+              "value": "item2",
+              "text": "All the Div elements"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Which jQuery method is used to set one or more style properties for selected elements?",
+          "correctAnswer": "item2",
+          "isRequired": true,
+          "hasOther": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": "style()"
+            },
+            {
+              "value": "item2",
+              "text": "html()"
+            }
+          ],
+          "otherText": "css()"
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Which jQuery method is used to perform an asynchronous HTTP request?",
+          "correctAnswer": "item1",
+          "isRequired": true,
+          "hasOther": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": "jQuery.ajax()"
+            },
+            {
+              "value": "item2",
+              "text": "jQuery.ajaxAsync()"
+            }
+          ],
+          "otherText": "jQuery.ajaxSetup()"
+        },
+        {
+          "type": "radiogroup",
+          "name": "question7",
+          "title": "Which sign does jQuery use as a shortcut for jQuery?",
+          "correctAnswer": "item2",
+          "isRequired": true,
+          "hasOther": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": "The % Sign"
+            },
+            {
+              "value": "item2",
+              "text": "The $ Sign"
+            }
+          ],
+          "otherText": "The ? Sign"
+        },
+        {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "What is the correct jQuery code to set the background color of all p elements to red?",
+          "correctAnswer": "css() Method. Return a CSS Property. To return the value of a specified CSS property,",
+          "isRequired": true,
+          "hasOther": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": " $(\"p\").style(\"background-color\",\"red\");"
+            },
+            {
+              "value": "item2",
+              "text": " $(\"p\").manipulate(\"background-color\",\"red\");"
+            }
+          ],
+          "otherText": " $(\"p\").css(\"background-color\",\"red\");"
+        },
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": "Which jQuery method should be used to deal with name conflicts?",
+          "correctAnswer": "item1",
+          "isRequired": true,
+          "hasOther": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": "noConflict()"
+            },
+            {
+              "value": "item2",
+              "text": "Conflict()"
+            }
+          ],
+          "otherText": "noNameConflict()"
+        },
+        {
+          "type": "radiogroup",
+          "name": "question10",
+          "title": "Which jQuery method is used to remove selected elements?",
+          "choices": [
+            {
+              "value": "item1",
+              "text": "detach()"
+            },
+            {
+              "value": "item2",
+              "text": "remove()"
+            },
+            {
+              "value": "item3",
+              "text": "the above both methods can be used"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
